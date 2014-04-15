@@ -5,6 +5,7 @@
  * File		:	loesung-01.c
  * Aufgabe	:	Serie 01 Aufgabe 01
  * ****************************************************************************
+ * Compile: gcc -std=c99 -Wall 
  */
 
 #include <stdio.h>
