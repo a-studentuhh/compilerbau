@@ -1,0 +1,25 @@
+Aufgabe 1)
+Schreiben Sie eine C-Funktion, die eine Hexadezimale Zahl ("0x...") übergeben 
+bekommt und eine Binärzahl zurück liefert.
+
+  int hex_bin(const char *hex)
+
+# ----------------------------------------------------------------------------
+Aufgabe 2)
+Modifizieren Sie Aufgabe 1) nach Belieben für andere Zahlbereiche (Binär-, 
+Ternär-,Oktal-, Dezimal-, Duodezimal-, Hexadezimal- oder Römische Zahlen).
+
+  int rom_dec(const char *rom)
+
+# ----------------------------------------------------------------------------
+Aufgabe 3)
+Bezeichner in der Sprache VHDL dürfen nur aus Buchstaben, Zahlen und Unterstrichen
+bestehen. Nicht erlaubt sind dabei Zahlen oder Unterstriche am Anfang des Bezeichners,
+sowie Unterstriche am Ende. Doppelte Unterstriche dürfen ebenfalls nicht vorkommen.
+Schreiben Sie eine C-Funktion isVHDLidentifier(), die eine nullterminierte Zeichenket-
+te übergeben bekommt und einen Integer zurück liefert. Dabei soll im Falle eines gültigen
+VHDL-Bezeichners, wie beschrieben, eine 1, sonst eine 0 zurückgegeben werden.
+
+  int isVHDLidentifier (const char *identifier) 
+
+# ----------------------------------------------------------------------------
